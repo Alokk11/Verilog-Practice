@@ -1,11 +1,12 @@
 # RTL Design and Verification Practice (Verilog)
 
 This repository documents my structured learning journey in RTL design using Verilog.  
-The goal is to build strong fundamentals in combinational and sequential logic along with simulation and verification practices.
+The goal is to build strong fundamentals in combinational and sequential logic along with proper simulation and verification practices.
 
 ---
 
 ## 🛠 Tools Used
+
 - Icarus Verilog (Compilation & Simulation)
 - GTKWave (Waveform Analysis)
 - VS Code (Development Environment)
@@ -13,26 +14,29 @@ The goal is to build strong fundamentals in combinational and sequential logic a
 ---
 
 ## 📁 Project Structure
-verilog-practice/
-│
-├── rtl/ # RTL design files
-├── tb/ # Testbenches
-├── README.md
-├── .gitignore 
+
+```
+rtl/        # RTL design files
+tb/         # Testbenches
+README.md
+.gitignore
+```
 
 ---
 
 ## ✅ Completed Designs
+
 ### 🔹 Half Adder
-- RTL implementation
-- Testbench with waveform dumping
-- Verified using GTKWave
+- RTL implementation  
+- Dedicated testbench  
+- Waveform dumping using VCD  
+- Verified using GTKWave  
 
 ### 🔹 16:1 Multiplexer
-- Vector-index based RTL implementation
-- Self-checking testbench
-- VCD waveform generation
-- Fully simulated and verified
+- Vector-index based RTL implementation (`assign y = in[sel]`)
+- Self-checking testbench  
+- VCD waveform generation  
+- Fully simulated and verified  
 
 ---
 
@@ -41,6 +45,19 @@ verilog-practice/
 ### Example: 16:1 Multiplexer
 
 Compile:
+```
+iverilog rtl/mux16to1.v tb/mux16to1_tb.v -o sim.out
+```
+
+Run:
+```
+vvp sim.out
+```
+
+View waveform:
+```
+gtkwave mux16to1.vcd
+```
 
 ---
 
@@ -48,19 +65,20 @@ Compile:
 
 This repository will progressively include:
 
-- Adders (Half, Full, Ripple Carry)
-- Multiplexers
+- Full Adder
+- Ripple Carry Adder
+- Multiplexers (parameterized versions)
 - Counters
 - Flip-Flops
 - Finite State Machines (FSM)
 - ALU (Arithmetic Logic Unit)
-- Basic Verification Enhancements
+- Basic verification enhancements
 
 ---
 
 ## 📌 Objective
 
-Build a strong foundation in RTL design and simulation as preparation for advanced digital design and VLSI verification roles.
+To build a strong foundation in RTL design and simulation as preparation for advanced digital design and VLSI verification roles.
 
 ---
 
