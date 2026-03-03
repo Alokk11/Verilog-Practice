@@ -13,17 +13,16 @@ The goal is to build strong fundamentals in combinational and sequential logic a
 ---
 
 ## 📁 Project Structure
-```verilog-practice/
+verilog-practice/
 │
 ├── rtl/ # RTL design files
 ├── tb/ # Testbenches
 ├── README.md
-├── .gitignore ```
+├── .gitignore 
 
 ---
 
 ## ✅ Completed Designs
-
 ### 🔹 Half Adder
 - RTL implementation
 - Testbench with waveform dumping
