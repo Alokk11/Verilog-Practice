@@ -1,24 +1,68 @@
-# Verilog Practice
+# RTL Design and Verification Practice (Verilog)
 
-This repository contains my RTL design practice using Verilog.
+This repository documents my structured learning journey in RTL design using Verilog.  
+The goal is to build strong fundamentals in combinational and sequential logic along with simulation and verification practices.
 
-## Tools Used
-- Icarus Verilog
-- GTKWave
-- VS Code
+---
 
-## Completed Designs
-- Half Adder (with testbench and waveform simulation)
+## 🛠 Tools Used
+- Icarus Verilog (Compilation & Simulation)
+- GTKWave (Waveform Analysis)
+- VS Code (Development Environment)
 
-## Simulation
+---
 
-Compiled using:
-iverilog -o sim half_adder.v tb_half_adder.v
+## 📁 Project Structure
+```verilog-practice/
+│
+├── rtl/ # RTL design files
+├── tb/ # Testbenches
+├── README.md
+├── .gitignore ```
 
-Run using:
-vvp sim
+---
 
-Waveform:
-gtkwave wave.vcd
+## ✅ Completed Designs
+
+### 🔹 Half Adder
+- RTL implementation
+- Testbench with waveform dumping
+- Verified using GTKWave
+
+### 🔹 16:1 Multiplexer
+- Vector-index based RTL implementation
+- Self-checking testbench
+- VCD waveform generation
+- Fully simulated and verified
+
+---
+
+## ▶ How to Simulate
+
+### Example: 16:1 Multiplexer
+
+Compile:
+
+---
+
+## 🎯 Learning Progression
+
+This repository will progressively include:
+
+- Adders (Half, Full, Ripple Carry)
+- Multiplexers
+- Counters
+- Flip-Flops
+- Finite State Machines (FSM)
+- ALU (Arithmetic Logic Unit)
+- Basic Verification Enhancements
+
+---
+
+## 📌 Objective
+
+Build a strong foundation in RTL design and simulation as preparation for advanced digital design and VLSI verification roles.
+
+---
 
 More modules will be added progressively.
