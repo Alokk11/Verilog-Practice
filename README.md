@@ -97,3 +97,24 @@ To build a strong foundation in RTL design and simulation as preparation for adv
 ---
 
 More modules will be added progressively.
+# Verilog Practice Projects
+
+This repository contains Verilog RTL designs and testbenches for digital design practice and verification.
+
+## Projects
+
+### Mod-N Counter
+- Parameterized counter design
+- Generates 1-cycle tick at rollover
+- Verified using testbench and waveform analysis
+
+## Tools Used
+- Icarus Verilog (Simulation)
+- GTKWave (Waveform analysis)
+
+## How to Run
+
+```bash
+iverilog -o mod_counter_tb.vvp rtl/mod_counter.v tb/mod_counter_tb.v
+vvp mod_counter_tb.vvp
+gtkwave mod_counter.vcd
