@@ -53,7 +53,7 @@ This repository contains my hands-on work in **RTL design using Verilog**, focus
 
 ---
 
-### 🔹 4-bit ALU *(in progress / to be added)*
+### 🔹 4-bit ALU 
 📁 `rtl/alu.v`, `tb/alu_tb.v`  
 - Supports arithmetic and logical operations  
 - Combinational design using case statements  
@@ -61,7 +61,7 @@ This repository contains my hands-on work in **RTL design using Verilog**, focus
 
 ---
 
-### 🔹 FSM Sequence Detector *(in progress / to be added)*
+### 🔹 FSM Sequence Detector
 📁 `rtl/fsm_seq_detector.v`, `tb/fsm_tb.v`  
 - Detects sequence **"101"**  
 - Sequential logic using finite state machine  
