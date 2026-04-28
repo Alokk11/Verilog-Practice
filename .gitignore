@@ -1,3 +1,9 @@
 *.vcd
-sim
+*.vvp
 *.out
+*.log
+*.jou
+*.pb
+*.str
+*.wdb
+*.wcfg

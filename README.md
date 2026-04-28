@@ -24,6 +24,9 @@ README.md
 
 ---
 
+
+---
+
 ## ✅ Completed Designs
 
 ### 🔹 Half Adder
@@ -32,11 +35,22 @@ README.md
 - Waveform dumping using VCD  
 - Verified using GTKWave  
 
+---
+
 ### 🔹 16:1 Multiplexer
 - Vector-index based RTL implementation (`assign y = in[sel]`)
-- Self-checking testbench  
+- Dedicated testbench  
 - VCD waveform generation  
 - Fully simulated and verified  
+
+---
+
+### 🔹 16-bit Carry Lookahead Adder (CLA)
+- Structural implementation using **4-bit CLA blocks**
+- Carry **Generate (G)** and **Propagate (P)** logic
+- Faster carry computation compared to ripple carry adders
+- Dedicated testbench with multiple test cases
+- VCD waveform dumping and verification using GTKWave
 
 ---
 
